@@ -1,5 +1,5 @@
 const fs = require('fs').promises
-const dataPath = __dirname + '/../../../data/data'
+const dataPath = __dirname + '/../data/data'
 
 const checkData = async () => {
     const raw = await checkFile()
